@@ -1,2 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://Albert511.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Albert511.github.io</link></image><lastBuildDate>Thu, 12 Sep 2024 08:44:57 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>test</title><link>https://Albert511.github.io/post/test.html</link><description>test。</description><guid isPermaLink="true">https://Albert511.github.io/post/test.html</guid><pubDate>Thu, 12 Sep 2024 08:44:20 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://Albert511.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Albert511.github.io</link></image><lastBuildDate>Thu, 12 Sep 2024 08:47:24 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>备忘录</title><link>https://Albert511.github.io/post/bei-wang-lu.html</link><description># 每月提示&#13;
+1、招商银行每月2号前还款；&#13;
+2、花呗每月15号前还款；&#13;
+&#13;
+# 待买东西&#13;
+- [ ] 钓鱼用品;&#13;
+- [ ] 穿的衣服;&#13;
+- [ ] 发工资后给家人买东西;&#13;
+&#13;
+# todo列表&#13;
+- [ ] 域名注册以及IP绑定域名;。</description><guid isPermaLink="true">https://Albert511.github.io/post/bei-wang-lu.html</guid><pubDate>Thu, 12 Sep 2024 08:46:51 +0000</pubDate></item><item><title>test</title><link>https://Albert511.github.io/post/test.html</link><description>test。</description><guid isPermaLink="true">https://Albert511.github.io/post/test.html</guid><pubDate>Thu, 12 Sep 2024 08:44:20 +0000</pubDate></item></channel></rss>
