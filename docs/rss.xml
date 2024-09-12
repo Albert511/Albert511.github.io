@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://Albert511.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Albert511.github.io</link></image><lastBuildDate>Thu, 12 Sep 2024 09:24:16 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>工具</title><link>https://Albert511.github.io/post/gong-ju.html</link><description># 工具&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lucas's Blog</title><link>https://Albert511.github.io</link><description>LOVE AND PEASE</description><copyright>Lucas's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/43559840?v=4&amp;size=64</url><title>avatar</title><link>https://Albert511.github.io</link></image><lastBuildDate>Thu, 12 Sep 2024 09:30:52 +0000</lastBuildDate><managingEditor>Lucas's Blog</managingEditor><ttl>60</ttl><webMaster>Lucas's Blog</webMaster><item><title>工具</title><link>https://Albert511.github.io/post/gong-ju.html</link><description># 工具&#13;
 &#13;
 ## 开发工具&#13;
 1、JDK&#13;
@@ -73,4 +73,4 @@ Patorjk：支持制作ASCII艺术字体的网站。</description><guid isPermaLi
 - [ ] 发工资后给家人买东西;&#13;
 &#13;
 # todo列表&#13;
-- [ ] 域名注册以及IP绑定域名;。</description><guid isPermaLink="true">https://Albert511.github.io/post/bei-wang-lu.html</guid><pubDate>Thu, 12 Sep 2024 08:46:51 +0000</pubDate></item><item><title>test</title><link>https://Albert511.github.io/post/test.html</link><description>test。</description><guid isPermaLink="true">https://Albert511.github.io/post/test.html</guid><pubDate>Thu, 12 Sep 2024 08:44:20 +0000</pubDate></item></channel></rss>
+- [ ] 域名注册以及IP绑定域名;。</description><guid isPermaLink="true">https://Albert511.github.io/post/bei-wang-lu.html</guid><pubDate>Thu, 12 Sep 2024 08:46:51 +0000</pubDate></item></channel></rss>
