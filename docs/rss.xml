@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lucas's Blog</title><link>https://Albert511.github.io</link><description>LOVE AND PEASE</description><copyright>Lucas's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/43559840?v=4&amp;size=64</url><title>avatar</title><link>https://Albert511.github.io</link></image><lastBuildDate>Sat, 14 Sep 2024 07:46:21 +0000</lastBuildDate><managingEditor>Lucas's Blog</managingEditor><ttl>60</ttl><webMaster>Lucas's Blog</webMaster><item><title>开发中的经验总结</title><link>https://Albert511.github.io/post/kai-fa-zhong-de-jing-yan-zong-jie.html</link><description># 技术方面&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lucas's Blog</title><link>https://Albert511.github.io</link><description>LOVE AND PEASE</description><copyright>Lucas's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/43559840?v=4&amp;size=64</url><title>avatar</title><link>https://Albert511.github.io</link></image><lastBuildDate>Wed, 25 Sep 2024 11:35:50 +0000</lastBuildDate><managingEditor>Lucas's Blog</managingEditor><ttl>60</ttl><webMaster>Lucas's Blog</webMaster><item><title>短视频</title><link>https://Albert511.github.io/post/duan-shi-pin.html</link><description># 快速入门&#13;
+抓住短视频的机遇，可以从以下几个角度出发来快速入门：&#13;
+&#13;
+1. **了解平台规则**：&#13;
+   - 不同的短视频平台有不同的用户群体和推荐机制。</description><guid isPermaLink="true">https://Albert511.github.io/post/duan-shi-pin.html</guid><pubDate>Wed, 25 Sep 2024 11:35:27 +0000</pubDate></item><item><title>开发中的经验总结</title><link>https://Albert511.github.io/post/kai-fa-zhong-de-jing-yan-zong-jie.html</link><description># 技术方面&#13;
 ## springboot整合jwt&#13;
 1、在继承了OncePerRequestFilter的过滤器中，将有可能出现异常的地方全部捕捉，并手动抛出异常，不然配置了全局异常捕捉，也捕捉不到异常信息；&#13;
 2、在过滤器中获取了请求参数处理后，需要把获取的参数信息放回请求中（取了就没了），不然后续的过滤器会拿不到参数；&#13;
