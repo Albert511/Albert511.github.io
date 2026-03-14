@@ -10,11 +10,11 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="# 标题一
-这是一条测试信息，用于测试gmeek是否正常构建。">
+<meta name="description" content="# GitHub中的gmeek不自动构建了
+刚开始编辑一条issue并保存可以自动构建，然后访问网址可以访问到保存的信息。">
 <meta property="og:title" content="测试">
-<meta property="og:description" content="# 标题一
-这是一条测试信息，用于测试gmeek是否正常构建。">
+<meta property="og:description" content="# GitHub中的gmeek不自动构建了
+刚开始编辑一条issue并保存可以自动构建，然后访问网址可以访问到保存的信息。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://Albert511.github.io/post/ce-shi.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/43559840?v=4&size=64">
@@ -75,8 +75,31 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><h1>标题一</h1>
-<p>这是一条测试信息，用于测试gmeek是否正常构建</p></div>
+<div class="markdown-body" id="postBody"><h1>GitHub中的gmeek不自动构建了</h1>
+<p>刚开始编辑一条issue并保存可以自动构建，然后访问网址可以访问到保存的信息。时间久了之后会出现新增或者编辑issue不能自动构建的现象。</p>
+<h2>原因：</h2>
+<p>GitHub 的规则是：<br>
+如果仓库 60 天没有 push / commit / issue / PR 等活动，所有使用 schedule 触发的 Actions 会被自动 disabled。</p>
+<h2>解决方案</h2>
+<h3>提交一次 commit</h3>
+<p>只要仓库有 activity 就会恢复。<br>
+比如：<br>
+<code class="notranslate">git commit --allow-empty -m "reactivate workflow"  git push</code><br>
+或者随便改个 README：<br>
+<code class="notranslate">git add . git commit -m "update" git push</code><br>
+然后 workflow 会恢复。</p>
+<h3>在GitHub网页直接修改一个文件（推荐）</h3>
+<blockquote>
+<p>推荐修改README.md然后直接提交。<br>
+步骤：<br>
+1、打开你的仓库主页<br>
+2、找一个文件（比如 README.md）<br>
+3、点击右上角 ✏️ Edit<br>
+4、随便加一行，比如<br>
+<code class="notranslate">update workflow</code><br>
+5、点击 Commit changes<br>
+这样 GitHub 就会产生一次 commit activity，workflow 就会恢复。</p>
+</blockquote></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
