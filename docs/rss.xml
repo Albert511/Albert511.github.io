@@ -1,2 +1,108 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lucas's Blog</title><link>https://Albert511.github.io</link><description>LOVE AND PEASE</description><copyright>Lucas's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/43559840?v=4&amp;size=64</url><title>avatar</title><link>https://Albert511.github.io</link></image><lastBuildDate>Mon, 27 Apr 2026 17:14:59 +0000</lastBuildDate><managingEditor>Lucas's Blog</managingEditor><ttl>60</ttl><webMaster>Lucas's Blog</webMaster></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lucas's Blog</title><link>https://Albert511.github.io</link><description>LOVE AND PEASE</description><copyright>Lucas's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/43559840?v=4&amp;size=64</url><title>avatar</title><link>https://Albert511.github.io</link></image><lastBuildDate>Tue, 28 Apr 2026 17:30:25 +0000</lastBuildDate><managingEditor>Lucas's Blog</managingEditor><ttl>60</ttl><webMaster>Lucas's Blog</webMaster><item><title>微信小程序</title><link>https://Albert511.github.io/post/wei-xin-xiao-cheng-xu.html</link><description># 准备资料。</description><guid isPermaLink="true">https://Albert511.github.io/post/wei-xin-xiao-cheng-xu.html</guid><pubDate>Fri, 10 Apr 2026 03:14:10 +0000</pubDate></item><item><title>问题/解决方案【记实录】</title><link>https://Albert511.github.io/post/wen-ti---jie-jue-fang-an-%E3%80%90-ji-shi-lu-%E3%80%91.html</link><description># GitHub中的gmeek不自动构建了
+刚开始编辑一条issue并保存可以自动构建，然后访问网址可以访问到保存的信息。</description><guid isPermaLink="true">https://Albert511.github.io/post/wen-ti---jie-jue-fang-an-%E3%80%90-ji-shi-lu-%E3%80%91.html</guid><pubDate>Sat, 14 Mar 2026 03:05:16 +0000</pubDate></item><item><title>支付安全的方法论</title><link>https://Albert511.github.io/post/zhi-fu-an-quan-de-fang-fa-lun.html</link><description>做支付，最怕什么
+
+“信息泄露了”、“被篡改了”、“交易被抵赖了”、“服务被攻击了”——“钱丢了”
+
+而我依靠下面这些20年沉淀下来的底层支付安全方法论，没出过一次事故、没丢过一分钱
+
+大部分人都知道支付安全很重要，但支付安全究竟包括哪些方面，面临的问题，以及有哪些具体方案来应对
+
+# 1、在线支付面临的主要安全问题
+
+在线支付面临的安全问题主要包括：
+
+**1、账号或密码等敏感信息被盗用。</description><guid isPermaLink="true">https://Albert511.github.io/post/zhi-fu-an-quan-de-fang-fa-lun.html</guid><pubDate>Sat, 06 Sep 2025 02:58:27 +0000</pubDate></item><item><title>开源项目</title><link>https://Albert511.github.io/post/kai-yuan-xiang-mu.html</link><description># 1、开箱即用的开源项目
+## 1、ruoyi-vue-pro
+可快速做企业后台
+例如：
+IoT设备管理后台
+SaaS运营平台
+管理系统。</description><guid isPermaLink="true">https://Albert511.github.io/post/kai-yuan-xiang-mu.html</guid><pubDate>Tue, 03 Jun 2025 05:54:02 +0000</pubDate></item><item><title>idea中的leetcode插件</title><link>https://Albert511.github.io/post/idea-zhong-de-leetcode-cha-jian.html</link><description># 一、下载插件&#13;
+&#13;
+打开idea编译软件，点击右上角的File--&gt;Setting--&gt;Plugins。</description><guid isPermaLink="true">https://Albert511.github.io/post/idea-zhong-de-leetcode-cha-jian.html</guid><pubDate>Mon, 30 Dec 2024 12:12:23 +0000</pubDate></item><item><title>短视频</title><link>https://Albert511.github.io/post/duan-shi-pin.html</link><description># 快速入门&#13;
+抓住短视频的机遇，可以从以下几个角度出发来快速入门：&#13;
+&#13;
+1. **了解平台规则**：&#13;
+   - 不同的短视频平台有不同的用户群体和推荐机制。</description><guid isPermaLink="true">https://Albert511.github.io/post/duan-shi-pin.html</guid><pubDate>Wed, 25 Sep 2024 11:35:27 +0000</pubDate></item><item><title>开发中的经验总结</title><link>https://Albert511.github.io/post/kai-fa-zhong-de-jing-yan-zong-jie.html</link><description># 技术方面&#13;
+## springboot整合jwt&#13;
+1、在继承了OncePerRequestFilter的过滤器中，将有可能出现异常的地方全部捕捉，并手动抛出异常，不然配置了全局异常捕捉，也捕捉不到异常信息；&#13;
+2、在过滤器中获取了请求参数处理后，需要把获取的参数信息放回请求中（取了就没了），不然后续的过滤器会拿不到参数；&#13;
+&#13;
+# 项目方面 &#13;
+## 开发规范&#13;
+遵循阿里巴巴Java开发手册；。</description><guid isPermaLink="true">https://Albert511.github.io/post/kai-fa-zhong-de-jing-yan-zong-jie.html</guid><pubDate>Sat, 14 Sep 2024 07:43:21 +0000</pubDate></item><item><title>工具</title><link>https://Albert511.github.io/post/gong-ju.html</link><description># 工具&#13;
+&#13;
+## 开发工具&#13;
+1、JDK&#13;
+2、Maven&#13;
+3、IntelliJ IDEA&#13;
+4、DevSidecar-开发者边车工具&#13;
+选择更通畅的网路&#13;
+5、Notepad--（notepad pro）&#13;
+修改主题为：Navajo&#13;
+![cc83c2fdbc09662cb33464c32fdc5594](https://github.com/user-attachments/assets/7342a720-b35e-4a6c-a1e5-24bedd56050f)&#13;
+6、typora - markdown语法的编辑器&#13;
+&#13;
+6、jetbrain全家桶破解 &#13;
+https://3.jetbra.in/&#13;
+7、终端工具：tabby、xshell&#13;
+8、apifox、apipost、postman&#13;
+9、MySQL以及Navicat连接客户端&#13;
+10、Redis以及Redis管理客户端&#13;
+11、DataGrip：适用于数据库和 SQL 的跨平台 IDE - JetBrains&#13;
+12、watt Toolkit：可用于加速github以及Steam等&#13;
+13、&#13;
+&#13;
+## 开发插件&#13;
+idea下载插件的网址&#13;
+https://plugins.jetbrains.com/&#13;
+### 代码洁癖插件&#13;
+1、Alibaba Java Coding Guidelines    阿里巴巴开发规范&#13;
+[插件地址](https://github.com/alibaba/p3c)&#13;
+2、FindBubs(spot bugs，sonar，Checkstyles)  检查代码中的bug&#13;
+3、Metrics Reloaded  衡量方法、类以及模块当中的复杂度&#13;
+4、lombok&#13;
+5、save action  每次保存文件时自动格式化&#13;
+6、SonarLint是一个静态代码分析工具&#13;
+### 辅助编码插件&#13;
+1、TONGYI Lingma 阿里的辅助插件&#13;
+2、TalkX 辅助编码&#13;
+3、CodeGeeX&#13;
+4、AWS Toolkit（CodeWhisperer）：可用于辅助编码&#13;
+&#13;
+## 其它插件&#13;
+* MyBatisX&#13;
+* Rainbow bracket 彩虹括号插件&#13;
+* Maven Helper (依赖冲突分析神器)&#13;
+[插件地址](https://plugins.jetbrains.com/plugin/7179-maven-helper/versions)&#13;
+* Alibaba Cloud Toolkit&#13;
+* MapStruct Support&#13;
+mapstruct的插件，获得更加丰富的代码提示&#13;
+* Code Glance 代码小地图&#13;
+* StopCoding&#13;
+提醒休息的插件[插件地址](https://github.com/jogeen/StopCoding/releases/tag/20210104-V1.0)&#13;
+* PlantUML integration    uml时序图，类图&#13;
+[插件地址](https://plugins.jetbrains.com/plugin/15524-plantuml-parser)&#13;
+* IDEA 久坐提醒插件&#13;
+[插件地址](https://github.com/s-unscrupulous/idea_seat)&#13;
+* LeetCode Editor&#13;
+[插件地址](https://github.com/shuzijun/leetcode-editor)&#13;
+* SequenceGiagram 生成代码时序图&#13;
+&#13;
+&#13;
+# 好用的开发相关的软件工具&#13;
+1、简单免费的内网穿透小工具，有了它轻松让别人访问你的项目~&#13;
+https://ngrok.com/&#13;
+2、可生成banner图的网站&#13;
+Patorjk：支持制作ASCII艺术字体的网站。</description><guid isPermaLink="true">https://Albert511.github.io/post/gong-ju.html</guid><pubDate>Thu, 12 Sep 2024 09:21:22 +0000</pubDate></item><item><title>备忘录</title><link>https://Albert511.github.io/post/bei-wang-lu.html</link><description># 每月提示&#13;
+1、招商银行每月2号前还款；&#13;
+2、花呗每月15号前还款；&#13;
+&#13;
+# 待买东西&#13;
+- [ ] 钓鱼用品;&#13;
+- [ ] 穿的衣服;&#13;
+- [ ] 发工资后给家人买东西;&#13;
+&#13;
+# todo列表&#13;
+- [ ] 域名注册以及IP绑定域名;。</description><guid isPermaLink="true">https://Albert511.github.io/post/bei-wang-lu.html</guid><pubDate>Thu, 12 Sep 2024 08:46:51 +0000</pubDate></item></channel></rss>
