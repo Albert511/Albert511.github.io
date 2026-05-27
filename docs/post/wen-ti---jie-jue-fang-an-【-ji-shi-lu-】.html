@@ -10,10 +10,10 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="# GitHub中的gmeek不自动构建了
+<meta name="description" content="# 1、GitHub中的gmeek不自动构建了
 刚开始编辑一条issue并保存可以自动构建，然后访问网址可以访问到保存的信息。">
 <meta property="og:title" content="问题/解决方案【记实录】">
-<meta property="og:description" content="# GitHub中的gmeek不自动构建了
+<meta property="og:description" content="# 1、GitHub中的gmeek不自动构建了
 刚开始编辑一条issue并保存可以自动构建，然后访问网址可以访问到保存的信息。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://Albert511.github.io/post/wen-ti---jie-jue-fang-an-%E3%80%90-ji-shi-lu-%E3%80%91.html">
@@ -85,7 +85,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><h1>GitHub中的gmeek不自动构建了</h1>
+<div class="markdown-body" id="postBody"><h1>1、GitHub中的gmeek不自动构建了</h1>
 <p>刚开始编辑一条issue并保存可以自动构建，然后访问网址可以访问到保存的信息。时间久了之后会出现新增或者编辑issue不能自动构建的现象。</p>
 <h2>原因：</h2>
 <p>GitHub 的规则是：<br>
@@ -110,13 +110,13 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <code class="notranslate">update workflow</code><br>
 5、点击 Commit changes<br>
 这样 GitHub 就会产生一次 commit activity，workflow 就会恢复。</p>
-<h1>服务器中Redis操作失败</h1>
+<h1>2、服务器中Redis操作失败</h1>
 <p>测试环境的服务调用接口报错，根据返回的错误码知道是操作Redis时报错，根据返回的traceId定位日志，发现错误日志是跟aof（Redis的备份机制）有关的，服务器磁盘空间不足，会导致aof文件的写入有问题。立马查看服务器磁盘的占用情况，发现是docker构建镜像时的缓存文件占用了大量空间，然后清理掉该部分的缓存空间后，Redis恢复。</p>
 <hr>
-<h1>服务调用第三方服务报错</h1>
+<h1>3、服务调用第三方服务报错</h1>
 <p>三方服务的接口访问是https的，在本服务的接口中调用也是使用https的方式调用三方接口，显示ssl有关的握手异常，但是之前访问其它三方服务的https接口也是没有问题，然后排查了https支持的哪些版本，发现本服务中最高是到TLS1.2的，推断第三方服务的接口可能高于这个，然后尝试验证高版本的TLS，在本地测试环境中是可以的，发布到测试环境时报错了，还是访问不通，接着排查发现本地开发的jdk8是421的，但测试服务器中docker中的jdk8是2xx，再查资料发现4xx的某个版本后就支持了TLS1.3，但是2xx的版本还是不支持，然后再找高于4xx的镜像，各种找，最后还是找到了，以为都没有问题了，但是发布到测试环境还是有问题，又发现该版本的jdk缺少了某些加密算法，然后再添加jdk8有关的加密的依赖，最后终于敲定这个问题。</p>
 <hr>
-<h1>IDEA 单元测试报错</h1>
+<h1>4、IDEA 单元测试报错</h1>
 <h2>1、运行单元测试时提示下面错误</h2>
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/ad4c6bbe-b0a9-41f0-8885-20173fb80bc5"><img width="417" height="131" alt="Image" src="https://github.com/user-attachments/assets/ad4c6bbe-b0a9-41f0-8885-20173fb80bc5" style="max-width: 100%; height: auto; max-height: 131px;; aspect-ratio: 417 / 131; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
 <pre class="notranslate"><code class="notranslate">Error running
