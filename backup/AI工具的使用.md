@@ -9,7 +9,7 @@
 如果有官方账号，并且订阅了对应的套餐，可直接打开codex使用官方账号登录；
 #### 1.2、中转平台账号
 1、第一步，如果打开了codex，先关掉codex进程，然后根据中转平台里的使用提示修改配置文件，如果还未打开过，就先打开codex然后再关闭（打开后codex才会初始化config.toml文件），找到并打开config.toml文件，将中转平台中的api秘钥里的配置复制到codex的配置文件前面；
-`model_provider = "OpenAI"
+model_provider = "OpenAI"
 model = "gpt-5.5"
 review_model = "gpt-5.5"
 model_reasoning_effort = "xhigh"
@@ -24,9 +24,9 @@ wire_api = "responses"
 requires_openai_auth = true
 
 [features]
-goals = true`
+goals = true
 
-<!-- Failed to upload "image.png" -->
+<img width="951" height="540" alt="Image" src="https://github.com/user-attachments/assets/e7c0a440-42e1-4bca-bc76-f010b22b023e" />
 
 2、第二步，选择通过其它方式登录codex，将OPENAI_API_KEY的值填入，登录即可；
 `{
