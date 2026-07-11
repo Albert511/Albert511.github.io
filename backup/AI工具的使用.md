@@ -34,6 +34,10 @@ goals = true
 }`
 <img width="1637" height="1140" alt="Image" src="https://github.com/user-attachments/assets/9cbb1aa9-9bee-4a6c-b038-431deb7cdf5a" />
 
+<img width="609" height="417" alt="Image" src="https://github.com/user-attachments/assets/dbff5012-807a-4a1d-ab15-5c90f4f02321" />
+
 ### 2、修改配置
 主题，我更喜欢深色主题；
 修改应用UI语言为中文；
+
+
