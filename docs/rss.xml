@@ -1,5 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lucas's Blog</title><link>https://Albert511.github.io</link><description>LOVE AND PEASE</description><copyright>Lucas's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/43559840?v=4&amp;size=64</url><title>avatar</title><link>https://Albert511.github.io</link></image><lastBuildDate>Sat, 11 Jul 2026 14:57:27 +0000</lastBuildDate><managingEditor>Lucas's Blog</managingEditor><ttl>60</ttl><webMaster>Lucas's Blog</webMaster><item><title>AI工具的使用</title><link>https://Albert511.github.io/post/AI-gong-ju-de-shi-yong.html</link><description># 一、codex
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lucas's Blog</title><link>https://Albert511.github.io</link><description>LOVE AND PEASE</description><copyright>Lucas's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/43559840?v=4&amp;size=64</url><title>avatar</title><link>https://Albert511.github.io</link></image><lastBuildDate>Wed, 22 Jul 2026 03:00:38 +0000</lastBuildDate><managingEditor>Lucas's Blog</managingEditor><ttl>60</ttl><webMaster>Lucas's Blog</webMaster><item><title>优秀skill的安装</title><link>https://Albert511.github.io/post/you-xiu-skill-de-an-zhuang.html</link><description># mattpocock/skills的安装使用
+
+## codex中的使用
+
+### 1、安装命令
+
+正常使用该命令以下命令安装；
+
+```sh
+npx skills@latest add mattpocock/skills
+```
+
+目前还没有codex的agents安装方式，所以采用全局安装方式来使用这些skill；
+
+```
+npx skills@latest add mattpocock/skills --agent codex --global
+```
+
+通过以下命令检查是否安装成功；
+
+```
+npx skills@latest list --global --agent codex
+```
+
+
+
+### 2、选择skill
+
+&gt; 一些skill是项目级，一些skill是全局级的；
+&gt;
+&gt; 这里展示的只是其中一部分，想要其它的skill可再进入该仓库mattpocock/skills查看；
+
+#### 1、/setup-matt-pocock-skills
+
+这个初始化 Skill，装完后在 AI 编程工具里运行一次：
+
+AI 会问你几个问题来适配你的项目。</description><guid isPermaLink="true">https://Albert511.github.io/post/you-xiu-skill-de-an-zhuang.html</guid><pubDate>Wed, 22 Jul 2026 03:00:07 +0000</pubDate></item><item><title>AI工具的使用</title><link>https://Albert511.github.io/post/AI-gong-ju-de-shi-yong.html</link><description># 一、codex
 ## 1、Windows中下载/安装
 * 1、通过电脑中的微软商店搜索 ChatGPT安装；
 * 2、通过官网下载安装；

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
+    
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/43559840?v=4&size=64"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="# mattpocock/skills的安装使用
+
+## codex中的使用
+
+### 1、安装命令
+
+正常使用该命令以下命令安装；
+
+```sh
+npx skills@latest add mattpocock/skills
+```
+
+目前还没有codex的agents安装方式，所以采用全局安装方式来使用这些skill；
+
+```
+npx skills@latest add mattpocock/skills --agent codex --global
+```
+
+通过以下命令检查是否安装成功；
+
+```
+npx skills@latest list --global --agent codex
+```
+
+
+
+### 2、选择skill
+
+> 一些skill是项目级，一些skill是全局级的；
+>
+> 这里展示的只是其中一部分，想要其它的skill可再进入该仓库mattpocock/skills查看；
+
+#### 1、/setup-matt-pocock-skills
+
+这个初始化 Skill，装完后在 AI 编程工具里运行一次：
+
+AI 会问你几个问题来适配你的项目。">
+<meta property="og:title" content="优秀skill的安装">
+<meta property="og:description" content="# mattpocock/skills的安装使用
+
+## codex中的使用
+
+### 1、安装命令
+
+正常使用该命令以下命令安装；
+
+```sh
+npx skills@latest add mattpocock/skills
+```
+
+目前还没有codex的agents安装方式，所以采用全局安装方式来使用这些skill；
+
+```
+npx skills@latest add mattpocock/skills --agent codex --global
+```
+
+通过以下命令检查是否安装成功；
+
+```
+npx skills@latest list --global --agent codex
+```
+
+
+
+### 2、选择skill
+
+> 一些skill是项目级，一些skill是全局级的；
+>
+> 这里展示的只是其中一部分，想要其它的skill可再进入该仓库mattpocock/skills查看；
+
+#### 1、/setup-matt-pocock-skills
+
+这个初始化 Skill，装完后在 AI 编程工具里运行一次：
+
+AI 会问你几个问题来适配你的项目。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://Albert511.github.io/post/you-xiu-skill-de-an-zhuang.html">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/43559840?v=4&size=64">
+<title>优秀skill的安装</title>
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+.copy-feedback {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    color: var(--color-fg-on-emphasis);
+    background-color: var(--color-fg-muted);
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">优秀skill的安装</h1>
+<div class="title-right">
+    <a href="https://Albert511.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+    <a href="https://github.com/Albert511/Albert511.github.io/issues/14" target="_blank" class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><h1>mattpocock/skills的安装使用</h1>
+<h2>codex中的使用</h2>
+<h3>1、安装命令</h3>
+<p>正常使用该命令以下命令安装；</p>
+<div class="highlight highlight-source-shell"><pre class="notranslate">npx skills@latest add mattpocock/skills</pre></div>
+<p>目前还没有codex的agents安装方式，所以采用全局安装方式来使用这些skill；</p>
+<pre class="notranslate"><code class="notranslate">npx skills@latest add mattpocock/skills --agent codex --global
+</code></pre>
+<p>通过以下命令检查是否安装成功；</p>
+<pre class="notranslate"><code class="notranslate">npx skills@latest list --global --agent codex
+</code></pre>
+<h3>2、选择skill</h3>
+<blockquote>
+<p>一些skill是项目级，一些skill是全局级的；</p>
+<p>这里展示的只是其中一部分，想要其它的skill可再进入该仓库mattpocock/skills查看；</p>
+</blockquote>
+<h4>1、/setup-matt-pocock-skills</h4>
+<p>这个初始化 Skill，装完后在 AI 编程工具里运行一次：</p>
+<p>AI 会问你几个问题来适配你的项目。比如用什么工具来管理 Issue、项目文档保存在哪个目录。</p>
+<h4>/grill-me 需求拷问</h4>
+<p>它的作用是让 AI 反过来对你进行「灵魂拷问」，帮你在让 AI 写代码之前把需求和设计想清楚。</p>
+<p>它的核心内容加起来竟然只有 3 句话！</p>
+<ul>
+<li>针对我的计划或设计，一个问题一个问题地追问我，直到我们达成共识。沿着决策树的每个分支走下去，逐个解决分支之间的依赖关系。每个问题要给出你的推荐答案。</li>
+<li>每次只问一个问题，等我回答完再问下一个。一次抛出一堆问题会让人不知所措。</li>
+<li>能通过查看环境（文件系统、工具等）找到的事实，直接去查，不用问我。但决策是我来做的，每个决策都要等我拍板。</li>
+</ul>
+<h4>/tdd 测试驱动开发</h4>
+<p>当你要求 AI 用测试驱动的方式来开发时，它会一口气先把所有测试写完，然后再写所有代码。</p>
+<p>这种方式看起来效率很高，但实际上有个很坑的问题。AI 在写测试的时候，代码还不存在，所以它只能靠想象来设计测试的结构。等真正开始写代码的时候，实际的 API 可能跟它想象的完全不一样，结果就是一堆测试要推倒重写。</p>
+<p>/tdd 这个 Skill 就是来解决这个问题的。它强制 AI 用「垂直切片」的方式来工作，也就是先写一个测试让它失败 ❌，然后只写刚好能让这个测试通过的代码 ✅，通过之后再写下一个测试。这就是经典的 Red-Green-Refactor 循环，一次只走一小步，每一步都是实打实验证过的。</p>
+<p>除了循环本身，这个 Skill 里还有几条值得注意的规则。</p>
+<p>比如它要求 只在预先商定的接缝处测试。所谓接缝（Seam）就是代码的公开接口，比如一个函数的入参和返回值。在写任何测试之前，AI 会先跟你确认在哪些接缝处写测试，而不是到处乱写，这样测试的覆盖重点才能落在真正重要的地方。</p>
+<p>另外这个 Skill 还列出了几种 AI 写测试时容易犯的反模式，相当于给 AI 定了规矩，一旦发现自己写出了这类测试就必须改掉。</p>
+<p>对于团队项目来说，让 AI 按照 TDD 的方式来写代码，代码质量会有明显的提升。</p>
+<h4>/diagnosing-bugs Bug 诊断</h4>
+<p>遇到 Bug 的时候，很多人的第一反应都是先看代码，猜一个可能的原因然后试着改。AI 也是这样的，大家应该有过这种经历，让 AI 修 Bug，结果它改了半天越改越乱。</p>
+<p>Matt Pocock 认为问题的根源在于 AI 跳过了最关键的一步，就是先建立一个 能稳定重现 Bug 的反馈循环。</p>
+<p>什么叫反馈循环呢？</p>
+<p>简单来说就是一条能稳定重现 Bug 的命令。可以是一个会失败的测试用例、一个 curl 请求、甚至一个 Playwright 浏览器自动化脚本，只要能一键运行并且明确告诉你 Bug 到底有没有触发就好。</p>
+<p>/diagnosing-bugs 这个 Skill 把 Debug 过程拆成了 6 个阶段，其中「建立反馈循环」是第一步，也是整个流程的核心。</p>
+<p>在这步完成之前，AI 不允许跳到「猜原因」的阶段。如果 AI 在还没有一条能重现 Bug 的命令的时候就开始分析代码，Skill 会直接打断它。</p>
+<p>等有了一条稳定重现的命令之后，接下来的步骤就比较常规了。最小化重现场景、提出假设并逐一验证、修复并写回归测试。</p>
+<p>这个思路跟 Cursor 内置的 Debug 模式有点异曲同工。Cursor 的 Debug 模式也是先通过自动检测和分析错误来定位问题，而不是让 AI 上来就瞎猜和乱改。</p>
+<p>不过 /diagnosing-bugs 更偏向于流程规范，它用一套严格的分阶段方法来约束 AI 的调试行为。先让 AI 建一个靠谱的重现方式，后面的修复效率反而会高很多。</p>
+<h4>/teach AI 辅助学习</h4>
+<p>前面几个 Skill 都跟写代码有关，但这个仓库里还有一些通用的生产力工具。比如 /teach 技能，作用是让 AI 变成你的私人教师。</p>
+<p>这个技能不只是让 AI 给你讲个知识那么简单，它背后有一套相当完整的教学方法论。</p>
+<p>当你运行 /teach 并告诉 AI 你想学什么之后，AI 会先问你为什么想学这个东西？</p>
+<p>然后 AI 会把你的学习目标记录到一个叫 MISSION.md 的文件里。</p>
+<p>接着它会去搜索高质量的学习资源，整理成 RESOURCES.md 资源文件。</p>
+<p>最后基于收集到的资源给你设计课程，每堂课是一个精美的 HTML 文件，保存在 lessons/ 目录下。</p>
+<p>值得一提的是，AI 会区分「流畅度」和「存储强度」这两种学习效果。流畅度就是你当场能回忆起来的感觉，但这不代表你真的记住了。存储强度才是真正的长期记忆。所以它会刻意设计有一定难度的练习，用间隔重复和交错练习等方法来帮你加深记忆，而不是让你产生「我已经学会了」的错觉。</p>
+<p>还有个很妙的设计是「最近发展区」，这是教育学里的经典理论。AI 会根据你之前的学习记录来判断你现在的水平，然后设计刚好超出你能力一点点的课程内容，不会太简单让你感到无聊，也不会太难让你放弃。</p>
+<p>而且你的所有学习过程都被保存在当前目录下，下次打开同一个目录继续学的时候，AI 就能接着上次的进度来，有种 AI 时代的个性化教育的感觉。</p>
+<h4>/wayfinder 大项目规划</h4>
+<p>这个 Skill 专门解决一个问题：当项目大到一个 AI 对话装不下的时候，该怎么办？</p>
+<p>用过 AI 编程的同学应该都有感受，如果你强行在一个很长的对话里完成所有事情，AI 的思考质量会随着上下文变长而明显下降。Matt Pocock 把 AI 表现最好的上下文范围叫做「智能区间」，大概在 120K tokens 以内。</p>
+<p>/wayfinder 的做法是把一个大需求拆成一张「决策地图」。当你面对一个大而模糊的需求时，AI 会先跟你一起把最终目标定义清楚，然后在 Issue 管理工具里创建一张地图，上面列出需要做的一系列决策，每个决策是一个独立的 Issue。</p>
+<p>这些决策之间有依赖关系，所以它会自动标注哪些可以先做、哪些要等前置决策完成才能开始。</p>
+<p>每次你打开一个新的 AI 对话来处理一个决策的时候，上下文都是干净的，不会被之前的内容污染。</p>
+<p>这个思路其实跟企业开发中的「模块化」很像，把一个大项目拆成多个模块分给不同的开发者，每个人只需要关注自己负责的部分。</p>
+<p>这里面还有一个很有趣的设计叫「战争迷雾」，就像游戏里没探索过的地图区域一样。你现在能看到的决策只是一部分，随着前面的决策逐步完成，后面的决策才会逐渐清晰起来。这样可以避免一开始就过度规划那些还想不清楚的事情。</p>
+<p>不过这个 Skill 的门槛相对比较高，更适合有一定工程经验的开发者来使用。如果你的项目规模不大，前面提到的 /grill-me 就够用了。</p>
+<h4>/improve-codebase-architecture 代码架构改进</h4>
+<p>除了日常的开发流程，Matt Pocock 还建议每隔几天就跑一次 /improve-codebase-architecture 技能，相当于定期给代码做一次体检。它会深度扫描你的代码库，找出那些结构上可以优化的地方。</p>
+<p>代码扫描完成后，AI 会生成一个可视化的 HTML 报告，而不是枯燥的文字。报告里用 Tailwind 美化样式、用 Mermaid 画架构图，每个优化建议都是一张卡片，上面写着涉及的文件、当前的问题、建议的改进方案，还有改进前后的对比图。</p>
+<p>每个建议还会标注推荐程度，有些是强烈推荐的，有些是值得探索的，有些只是试探性的。你选一个感兴趣的之后，它就会启动一轮新的 grilling 对话来跟你讨论具体怎么改。</p>
+<p>这个 Skill 背后的核心理念来自《A Philosophy of Software Design》这本书。打个比方，一个好的模块就像微波炉，你只需要按几个按钮就能加热食物，内部的电磁波原理完全不用管。这种叫做「深」模块，接口简单，实现复杂。</p>
+<p>但如果一个模块用起来跟自己写一个差不多费劲，那就是「浅」模块了。这个 Skill 要找的就是代码库里那些「浅」模块，帮你把它们变成「深」模块。</p>
+<h4>/handoff 上下文交接</h4>
+<p>大家用 AI 编程的时候应该都遇到过这个问题：在一个对话里讨论了很多内容，积累了大量上下文，但是要开一个新对话的时候，之前的所有讨论就全丢了。</p>
+<p>虽然可以手动复制粘贴，但是比较麻烦，还容易遗漏关键信息。</p>
+<p>/handoff 技能就是来解决这个问题的。在你当前对话结束前，它会让 AI 把整个对话的核心内容压缩成一份交接文档，保存成一个 Markdown 文件。</p>
+<p>下次开新对话的时候，只要让 AI 读一下这个文件，它就能接着上次的进度继续工作。</p>
+<p>这个交接文档还会标注建议在新对话中使用哪些 Skill，并且会自动去除敏感信息，比如 API 密钥之类的。</p>
+<p>这样一来，多轮对话之间可以无缝协作了。</p></div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
+
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+
+</div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://Albert511.github.io">Lucas's Blog</a></div>
+<div id="footer2">
+    <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
+</div>
+
+<script>
+var now=new Date();
+document.getElementById("copyrightYear").innerHTML=now.getFullYear();
+
+if(""!=""){
+    var startSite=new Date("");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
+}
+</script></div>
+</body>
+<script>
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z', 'copy': 'M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z', 'check': 'M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z'};
+var utterancesLoad=0;
+
+let themeSettings={
+    "dark": ["dark","moon","#00f0ff","dark-blue"],
+    "light": ["light","sun","#ff5000","github-light"],
+    "auto": ["auto","sync","","preferred-color-scheme"]
+};
+function changeTheme(mode, icon, color, utheme){
+    document.documentElement.setAttribute("data-color-mode",mode);
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList[icon]);
+    document.getElementById("themeSwitch").parentNode.style.color=color;
+    if(utterancesLoad==1){utterancesTheme(utheme);}
+}
+function modeSwitch(){
+    let currentMode=document.documentElement.getAttribute('data-color-mode');
+    let newMode = currentMode === "light" ? "dark" : currentMode === "dark" ? "auto" : "light";
+    localStorage.setItem("meek_theme", newMode);
+    if(themeSettings[newMode]){
+        changeTheme(...themeSettings[newMode]);
+    }
+}
+function utterancesTheme(theme){
+    const message={type:'set-theme',theme: theme};
+    const iframe=document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message,'https://utteranc.es');
+}
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
+</script>
+
+<script>
+document.getElementById("pathHome").setAttribute("d",IconList["home"]);
+document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","Albert511/Albert511.github.io");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const createClipboardHTML = (codeContent, additionalClasses = '') => `
+        <pre class="notranslate"><code class="notranslate">${codeContent}</code></pre>
+        <div class="clipboard-container position-absolute right-0 top-0 ${additionalClasses}">
+            <clipboard-copy class="ClipboardButton btn m-2 p-0" role="button" style="display: inherit;">
+                <svg height="16" width="16" class="octicon octicon-copy m-2"><path d="${IconList["copy"]}"></path></svg>
+                <svg height="16" width="16" class="octicon octicon-check color-fg-success m-2 d-none"><path d="${IconList["check"]}"></path></svg>
+            </clipboard-copy>
+            <div class="copy-feedback">Copied!</div>
+        </div>
+    `;
+
+    const handleCodeElements = (selector = '') => {
+        document.querySelectorAll(selector).forEach(codeElement => {
+            const codeContent = codeElement.innerHTML;
+            const newStructure = document.createElement('div');
+            newStructure.className = 'snippet-clipboard-content position-relative overflow-auto';
+            newStructure.innerHTML = createClipboardHTML(codeContent);
+
+            const parentElement = codeElement.parentElement;
+            if (selector.includes('highlight')) {
+                parentElement.insertBefore(newStructure, codeElement.nextSibling);
+                parentElement.removeChild(codeElement);
+            } else {
+                parentElement.parentElement.replaceChild(newStructure, parentElement);
+            }
+        });
+    };
+
+    handleCodeElements('pre.notranslate > code.notranslate');
+    handleCodeElements('div.highlight > pre.notranslate');
+
+    let currentFeedback = null;
+    document.querySelectorAll('clipboard-copy').forEach(copyButton => {
+        copyButton.addEventListener('click', () => {
+            const codeContent = copyButton.closest('.snippet-clipboard-content').innerText;
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = codeContent;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempTextArea);
+
+            const copyIcon = copyButton.querySelector('.octicon-copy');
+            const checkIcon = copyButton.querySelector('.octicon-check');
+            const copyFeedback = copyButton.nextElementSibling;
+
+            if (currentFeedback && currentFeedback !== copyFeedback) {currentFeedback.style.display = 'none';}
+            currentFeedback = copyFeedback;
+
+            copyIcon.classList.add('d-none');
+            checkIcon.classList.remove('d-none');
+            copyFeedback.style.display = 'block';
+            copyButton.style.borderColor = 'var(--color-success-fg)';
+
+            setTimeout(() => {
+                copyIcon.classList.remove('d-none');
+                checkIcon.classList.add('d-none');
+                copyFeedback.style.display = 'none';
+                copyButton.style.borderColor = '';
+            }, 2000);
+        });
+    });
+});
+
+</script>
+
+
+</html>
