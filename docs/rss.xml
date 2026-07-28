@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lucas's Blog</title><link>https://Albert511.github.io</link><description>LOVE AND PEASE</description><copyright>Lucas's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/43559840?v=4&amp;size=64</url><title>avatar</title><link>https://Albert511.github.io</link></image><lastBuildDate>Wed, 22 Jul 2026 03:00:38 +0000</lastBuildDate><managingEditor>Lucas's Blog</managingEditor><ttl>60</ttl><webMaster>Lucas's Blog</webMaster><item><title>优秀skill的安装</title><link>https://Albert511.github.io/post/you-xiu-skill-de-an-zhuang.html</link><description># mattpocock/skills的安装使用
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lucas's Blog</title><link>https://Albert511.github.io</link><description>LOVE AND PEASE</description><copyright>Lucas's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/43559840?v=4&amp;size=64</url><title>avatar</title><link>https://Albert511.github.io</link></image><lastBuildDate>Tue, 28 Jul 2026 01:32:48 +0000</lastBuildDate><managingEditor>Lucas's Blog</managingEditor><ttl>60</ttl><webMaster>Lucas's Blog</webMaster><item><title>优秀skill的安装</title><link>https://Albert511.github.io/post/you-xiu-skill-de-an-zhuang.html</link><description># mattpocock/skills的安装使用
 
 ## codex中的使用
 
@@ -116,70 +116,81 @@ SaaS运营平台
 &#13;
 # 项目方面 &#13;
 ## 开发规范&#13;
-遵循阿里巴巴Java开发手册；。</description><guid isPermaLink="true">https://Albert511.github.io/post/kai-fa-zhong-de-jing-yan-zong-jie.html</guid><pubDate>Sat, 14 Sep 2024 07:43:21 +0000</pubDate></item><item><title>工具</title><link>https://Albert511.github.io/post/gong-ju.html</link><description># 工具&#13;
-&#13;
-## 开发工具&#13;
-1、JDK&#13;
-2、Maven&#13;
-3、IntelliJ IDEA&#13;
-4、DevSidecar-开发者边车工具&#13;
-选择更通畅的网路&#13;
-5、Notepad--（notepad pro）&#13;
-修改主题为：Navajo&#13;
-![cc83c2fdbc09662cb33464c32fdc5594](https://github.com/user-attachments/assets/7342a720-b35e-4a6c-a1e5-24bedd56050f)&#13;
-6、typora - markdown语法的编辑器&#13;
-&#13;
-6、jetbrain全家桶破解 &#13;
-https://3.jetbra.in/&#13;
-7、终端工具：tabby、xshell&#13;
-8、apifox、apipost、postman&#13;
-9、MySQL以及Navicat连接客户端&#13;
-10、Redis以及Redis管理客户端&#13;
-11、DataGrip：适用于数据库和 SQL 的跨平台 IDE - JetBrains&#13;
-12、watt Toolkit：可用于加速github以及Steam等&#13;
-13、&#13;
-&#13;
-## 开发插件&#13;
-idea下载插件的网址&#13;
-https://plugins.jetbrains.com/&#13;
-### 代码洁癖插件&#13;
-1、Alibaba Java Coding Guidelines    阿里巴巴开发规范&#13;
-[插件地址](https://github.com/alibaba/p3c)&#13;
-2、FindBubs(spot bugs，sonar，Checkstyles)  检查代码中的bug&#13;
-3、Metrics Reloaded  衡量方法、类以及模块当中的复杂度&#13;
-4、lombok&#13;
-5、save action  每次保存文件时自动格式化&#13;
-6、SonarLint是一个静态代码分析工具&#13;
-### 辅助编码插件&#13;
-1、TONGYI Lingma 阿里的辅助插件&#13;
-2、TalkX 辅助编码&#13;
-3、CodeGeeX&#13;
-4、AWS Toolkit（CodeWhisperer）：可用于辅助编码&#13;
-&#13;
-## 其它插件&#13;
-* MyBatisX&#13;
-* Rainbow bracket 彩虹括号插件&#13;
-* Maven Helper (依赖冲突分析神器)&#13;
-[插件地址](https://plugins.jetbrains.com/plugin/7179-maven-helper/versions)&#13;
-* Alibaba Cloud Toolkit&#13;
-* MapStruct Support&#13;
-mapstruct的插件，获得更加丰富的代码提示&#13;
-* Code Glance 代码小地图&#13;
-* StopCoding&#13;
-提醒休息的插件[插件地址](https://github.com/jogeen/StopCoding/releases/tag/20210104-V1.0)&#13;
-* PlantUML integration    uml时序图，类图&#13;
-[插件地址](https://plugins.jetbrains.com/plugin/15524-plantuml-parser)&#13;
-* IDEA 久坐提醒插件&#13;
-[插件地址](https://github.com/s-unscrupulous/idea_seat)&#13;
-* LeetCode Editor&#13;
-[插件地址](https://github.com/shuzijun/leetcode-editor)&#13;
-* SequenceGiagram 生成代码时序图&#13;
-&#13;
-&#13;
-# 好用的开发相关的软件工具&#13;
-1、简单免费的内网穿透小工具，有了它轻松让别人访问你的项目~&#13;
-https://ngrok.com/&#13;
-2、可生成banner图的网站&#13;
+遵循阿里巴巴Java开发手册；。</description><guid isPermaLink="true">https://Albert511.github.io/post/kai-fa-zhong-de-jing-yan-zong-jie.html</guid><pubDate>Sat, 14 Sep 2024 07:43:21 +0000</pubDate></item><item><title>工具</title><link>https://Albert511.github.io/post/gong-ju.html</link><description># 开发相关工具
+
+## 开发工具
+1、JDK
+2、Maven
+3、IntelliJ IDEA
+4、DevSidecar-开发者边车工具
+选择更通畅的网路
+5、Notepad--（notepad pro）
+修改主题为：Navajo
+![cc83c2fdbc09662cb33464c32fdc5594](https://github.com/user-attachments/assets/7342a720-b35e-4a6c-a1e5-24bedd56050f)
+6、typora - markdown语法的编辑器
+
+6、jetbrain全家桶破解 
+https://3.jetbra.in/
+7、终端工具：tabby、xshell
+8、apifox、apipost、postman
+9、MySQL以及Navicat连接客户端
+10、Redis以及Redis管理客户端
+11、DataGrip：适用于数据库和 SQL 的跨平台 IDE - JetBrains
+12、watt Toolkit：可用于加速github以及Steam等
+13、
+
+## 开发插件
+idea下载插件的网址
+https://plugins.jetbrains.com/
+### 代码洁癖插件
+1、Alibaba Java Coding Guidelines    阿里巴巴开发规范
+[插件地址](https://github.com/alibaba/p3c)
+2、FindBubs(spot bugs，sonar，Checkstyles)  检查代码中的bug
+3、Metrics Reloaded  衡量方法、类以及模块当中的复杂度
+4、lombok
+5、save action  每次保存文件时自动格式化
+6、SonarLint是一个静态代码分析工具
+### 辅助编码插件
+1、TONGYI Lingma 阿里的辅助插件
+2、TalkX 辅助编码
+3、CodeGeeX
+4、AWS Toolkit（CodeWhisperer）：可用于辅助编码
+
+## 其它插件
+* MyBatisX
+* Rainbow bracket 彩虹括号插件
+* Maven Helper (依赖冲突分析神器)
+[插件地址](https://plugins.jetbrains.com/plugin/7179-maven-helper/versions)
+* Alibaba Cloud Toolkit
+* MapStruct Support
+mapstruct的插件，获得更加丰富的代码提示
+* Code Glance 代码小地图
+* StopCoding
+提醒休息的插件[插件地址](https://github.com/jogeen/StopCoding/releases/tag/20210104-V1.0)
+* PlantUML integration    uml时序图，类图
+[插件地址](https://plugins.jetbrains.com/plugin/15524-plantuml-parser)
+* IDEA 久坐提醒插件
+[插件地址](https://github.com/s-unscrupulous/idea_seat)
+* LeetCode Editor
+[插件地址](https://github.com/shuzijun/leetcode-editor)
+* SequenceGiagram 生成代码时序图
+
+## 源码阅读
+### 1、deepwiki
+如果你也想第一个开源仓库，我这儿有一套路径比较顺手的流程，供你参考：
+
+1. 打开它的 DeepWiki，直接把仓库地址放进去；
+2. 接着，先看这个仓库的 Overview 和 Architecture，了解项目结构；
+3. 再问三个问题：入口在哪、核心模块是什么、主流程怎么走，这时候就可以使用 Codemap 模式了；
+4. 最后回到源码、测试和实际运行链路确认；
+
+
+
+
+# 好用的开发相关的软件工具
+1、简单免费的内网穿透小工具，有了它轻松让别人访问你的项目~
+https://ngrok.com/
+2、可生成banner图的网站
 Patorjk：支持制作ASCII艺术字体的网站。</description><guid isPermaLink="true">https://Albert511.github.io/post/gong-ju.html</guid><pubDate>Thu, 12 Sep 2024 09:21:22 +0000</pubDate></item><item><title>备忘录</title><link>https://Albert511.github.io/post/bei-wang-lu.html</link><description># 每月提示&#13;
 1、招商银行每月2号前还款；&#13;
 2、花呗每月15号前还款；&#13;
