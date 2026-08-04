@@ -19,18 +19,17 @@ windows_wsl_setup_acknowledged = true
 
 [model_providers.OpenAI]
 name = "OpenAI"
-base_url = "https://ailabhome.design2.org"
+base_url = "https://xxx"
 wire_api = "responses"
 requires_openai_auth = true
 
 [features]
 goals = true
 
-<img width="951" height="540" alt="Image" src="https://github.com/user-attachments/assets/e7c0a440-42e1-4bca-bc76-f010b22b023e" />
 
 2、第二步，选择通过其它方式登录codex，将OPENAI_API_KEY的值填入，登录即可；
 `{
-  "OPENAI_API_KEY": "sk-5b41060ac9b1c801b3fba2c44c3a12d6fb24471e6e3e703d4e1ab06f5174b1be"
+  "OPENAI_API_KEY": "sk-xxx"
 }`
 <img width="1637" height="1140" alt="Image" src="https://github.com/user-attachments/assets/9cbb1aa9-9bee-4a6c-b038-431deb7cdf5a" />
 
